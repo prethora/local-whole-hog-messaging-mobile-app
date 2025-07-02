@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17803577416",
+    "project_id": "whole-hog-messaging",
+    "storage_bucket": "whole-hog-messaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17803577416:android:b8132da0124909c3aa307d",
+        "android_client_info": {
+          "package_name": "io.wholehog.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7KXDh1XhD2m8L5_M-N5lvri3vabsRI7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

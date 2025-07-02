@@ -1,0 +1,25 @@
+{
+  "appId": "io.wholehog.app",
+  "appName": "Whole Hog",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "backgroundColor": "#f7e176",
+      "launchFadeOutDuration": 0
+    },
+    "CapacitorHttp": {
+      "enabled": false
+    },
+    "StatusBar": {
+      "overlaysWebView": false,
+      "style": "DARK",
+      "backgroundColor": "#ffffffff"
+    }
+  },
+  "server": {
+    "androidScheme": "http",
+    "iosScheme": "http",
+    "cleartext": true
+  }
+}

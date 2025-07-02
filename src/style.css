@@ -1,0 +1,39 @@
+@import url("boxicons/css/boxicons.min.css");
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.hide-scrollbars {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+.hide-scrollbars::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+a.message_link {
+    @apply text-blue-400;
+}
+
+.absolute-frame {
+    @apply absolute left-0 top-0 right-0 bottom-0;
+}

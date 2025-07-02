@@ -1,0 +1,37 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "types": [
+        "node"
+      ],
+    }
+  },
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "es2019",
+      "webworker"
+    ],
+    "types": [],
+    "moduleResolution": "node",
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
